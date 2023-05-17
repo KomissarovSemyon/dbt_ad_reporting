@@ -5,7 +5,7 @@ packages:
   - package: fivetran/snapchat_ads
     version: [">=0.5.0", "<0.6.0"]
     
-  - package: "https://github.com/KomissarovSemyon/dbt_facebook_ads"
+  - git: "https://github.com/KomissarovSemyon/dbt_facebook_ads"
     revision: main
 
   - package: fivetran/google_ads
